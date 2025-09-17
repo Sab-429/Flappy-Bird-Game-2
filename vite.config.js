@@ -1,5 +1,5 @@
 import { defineConfig } from 'vite'
 
-export default defineConfig({
-    base: '/Flappy-Bird-Game-2',
-})
+export default defineConfig(({ command }) => ({
+  base: command === 'build' ? '/Flappy-Bird-Game-2/' : '/',
+}))
