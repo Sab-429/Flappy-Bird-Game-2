@@ -1,5 +1,5 @@
 import { defineConfig } from 'vite'
 
 export default defineConfig({
-    base: '/Flappy-Bird-Game',
+    base: '/Flappy-Bird-Game-2',
 })
